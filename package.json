@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "description": "performant confetti animation in the browser",
   "main": "src/confetti.js",
-  "module": "dist/confetti.module.mjs",
+  "module": "dist/confetti.module.js",
   "jsdelivr": "dist/confetti.browser.js",
   "scripts": {
     "build": "node build/build.js",

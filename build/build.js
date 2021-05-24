@@ -55,7 +55,7 @@ mkdir('dist')
 .then(file => {
   return Promise.all([
     writeFile('dist/confetti.browser.js', buildCommonJs(file)),
-    writeFile('dist/confetti.module.mjs', buildModule(file))
+    writeFile('dist/confetti.module.js', buildModule(file))
   ]);
 })
 .catch(err => {
